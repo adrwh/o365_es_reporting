@@ -120,7 +120,6 @@ function Send-ESBulkApi {
     
     end {
         Write-Verbose -Verbose "Send-ESBulkApi end{}.."
-        $es_bulk_data
         try {
             # Send to Elastic using the _bulk API
             Write-Verbose -Verbose "Send-ESBulkApi.."
